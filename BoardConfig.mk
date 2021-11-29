@@ -15,6 +15,9 @@
 
 DEVICE_PATH := device/samsung/j2y18lte
 
+# Kernel
+TARGET_KERNEL_CONFIG := j2y18lte_defconfig
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
