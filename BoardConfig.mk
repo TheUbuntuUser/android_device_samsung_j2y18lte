@@ -15,6 +15,9 @@
 
 DEVICE_PATH := device/samsung/j2y18lte
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # Inherit from common msm8917-common
 -include device/samsung/msm8917-common/BoardConfigCommon.mk
 
