@@ -18,6 +18,9 @@ DEVICE_PATH := device/samsung/j2y18lte
 # Kernel
 TARGET_KERNEL_CONFIG := j2y18lte_defconfig
 
+# Filesystem
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2453520000
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
