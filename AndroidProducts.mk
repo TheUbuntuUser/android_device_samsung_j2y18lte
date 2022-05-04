@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_j2y18lte.mk
+    $(LOCAL_DIR)/spark_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_j2y18lte-user \
-    octavi_j2y18lte-userdebug \
-    octavi_j2y18lte-eng
+    spark_j2y18lte-user \
+    spark_j2y18lte-userdebug \
+    spark_j2y18lte-eng
