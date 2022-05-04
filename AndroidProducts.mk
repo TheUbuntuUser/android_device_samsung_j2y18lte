@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_j2y18lte.mk
+    $(LOCAL_DIR)/octavi_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_j2y18lte-user \
-    dot_j2y18lte-userdebug \
-    dot_j2y18lte-eng
+    octavi_j2y18lte-user \
+    octavi_j2y18lte-userdebug \
+    octavi_j2y18lte-eng
