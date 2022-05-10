@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/derp/config/common.mk)
 
 # Inherit MIUI Camera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j2y18lte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := dot_j2y18lte
+PRODUCT_NAME := derp_j2y18lte
 PRODUCT_MODEL := Galaxy J2 Pro 2018
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
