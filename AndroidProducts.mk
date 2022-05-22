@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j2y18lte.mk
+    $(LOCAL_DIR)/nad_j2y18lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j2y18lte-user \
-    lineage_j2y18lte-userdebug \
-    lineage_j2y18lte-eng
+    nad_j2y18lte-user \
+    nad_j2y18lte-userdebug \
+    nad_j2y18lte-eng
