@@ -16,8 +16,16 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 720
+
+EXTRA_FOD_ANIMATIONS := true
+
+# Inherit some common Nusantara stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+
+# Nusantara Project Official
+NAD_BUILD_TYPE := OFFICIAL
 
 # Inherit MIUI Camera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
@@ -31,7 +39,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j2y18lte
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_NAME := havoc_j2y18lte
+PRODUCT_NAME := nad_j2y18lte
 PRODUCT_MODEL := Galaxy J2 Pro 2018
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
