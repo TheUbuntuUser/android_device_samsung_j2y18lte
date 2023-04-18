@@ -22,8 +22,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from j2y18lte device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := j2y18lte
